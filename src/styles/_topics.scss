@@ -1,4 +1,7 @@
 .topicsWrapper {
+	flex-direction: column;
+	display: flex;
+
 	.listWrapper {
 		background-color: white;
 		margin: 0 30px;
