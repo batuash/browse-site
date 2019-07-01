@@ -1,0 +1,16 @@
+html, body {
+	height: 100%;
+}
+
+div#root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.appWrapper {
+	background-color: #929AA0;
+	width: 500px;
+	height: 500px;
+}

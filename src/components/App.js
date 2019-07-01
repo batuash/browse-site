@@ -1,5 +1,5 @@
 import React from 'react';
-import {TabList, Tabs, Tab, TabPanel} from './index';
+import {TabList, Tabs, Tab, TabPanel, Header} from './index';
 
 // @todo remove these
 const Topics = ({isShow, ...props}) => {
@@ -15,7 +15,8 @@ const Pages = ({isShow, ...props}) => {
 };
 
 const App = () => (
-  <div>
+  <div className="appWrapper">
+    <Header />
     <TabList>
       <Tabs>
         <Tab title="Topics" />

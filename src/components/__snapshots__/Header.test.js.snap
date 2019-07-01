@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="headerWrapper"
+>
+  <h2>
+    Browse Site
+  </h2>
+  <span>
+    SELECT A TAB
+  </span>
+</div>
+`;
