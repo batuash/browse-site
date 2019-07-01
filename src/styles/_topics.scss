@@ -10,6 +10,19 @@
 			li {
 				padding: 15px 0;
 				border-bottom: 1px solid $regent-gray;
+
+				.topic {
+					padding-right: 10px;
+				}
+
+				.posts {
+					color: $regent-gray;
+					font-size: 12px;
+				}
+			}
+
+			li:last-child {
+			  border-bottom: none;
 			}
 		}
 	}
