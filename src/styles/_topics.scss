@@ -1,0 +1,16 @@
+.topicsWrapper {
+	.listWrapper {
+		background-color: white;
+		margin: 0 30px;
+
+		ul {
+			list-style-type:none;
+			padding: 0 30px;
+
+			li {
+				padding: 15px 0;
+				border-bottom: 1px solid $regent-gray;
+			}
+		}
+	}
+}

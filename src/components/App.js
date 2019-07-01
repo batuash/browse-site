@@ -1,10 +1,7 @@
 import React from 'react';
-import {TabList, Tabs, Tab, TabPanel, Header} from './index';
+import {TabList, Tabs, Tab, TabPanel, Header, Topics} from './index';
 
 // @todo remove these
-const Topics = ({isShow, ...props}) => {
-  return isShow && <span>This is Topics Content</span>;
-};
 
 const Archives = ({isShow, ...props}) => {
   return isShow && <span>This is Archives Content</span>;
