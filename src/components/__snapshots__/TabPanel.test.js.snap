@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="tabListWrapper"
+>
+  <TabPanel
+    index={0}
+    renderTabListChildren={[Function]}
+    selected={0}
+    setSelected={[Function]}
+  >
+    <span>
+       some content 
+    </span>
+  </TabPanel>
+</div>
+`;

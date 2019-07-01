@@ -1,9 +1,9 @@
 import React from 'react';
-import Message from './Message';
 import ShallowRenderer from 'react-test-renderer/shallow';
+import {App} from './index';
 
 it('renders correctly', () => {
-	const renderer = new ShallowRenderer();
-  const tree = renderer.render(<Message />);
+  const renderer = new ShallowRenderer();
+  const tree = renderer.render(<App />);
   expect(tree).toMatchSnapshot();
 });
