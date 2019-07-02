@@ -1,7 +1,15 @@
+// @flow
 import React from 'react';
 
-const Tab = ({index, selected, title, setSelected}) => {
-  const className = index === selected ? 'selected' : '';
+export type TabProps = {
+  index: number,
+  selected: number,
+  title: string,
+  setSelected: Function
+};
+
+const Tab = ({index, selected, title, setSelected}: TabProps) => {
+  const className: string = index === selected ? 'selected' : '';
 
   return (
     <button className={className} onClick={() => setSelected(index)}>

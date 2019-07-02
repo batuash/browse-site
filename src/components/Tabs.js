@@ -1,6 +1,11 @@
+// @flow
 import React from 'react';
 
-const Tabs = props => (
+export type TabsProps = {
+  renderTabListChildren: Function
+};
+
+const Tabs = (props: TabsProps) => (
   <div className="tabsWrapper">{props.renderTabListChildren(props)}</div>
 );
 

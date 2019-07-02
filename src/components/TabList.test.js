@@ -1,6 +1,6 @@
 import React from 'react';
 import ShallowRenderer from 'react-test-renderer/shallow';
-import {TabList} from './';
+import {TabList} from './index';
 
 it('renders correctly', () => {
   const renderer = new ShallowRenderer();

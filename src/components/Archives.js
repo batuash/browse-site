@@ -1,6 +1,11 @@
+// @flow
 import React from 'react';
 
-const Archives = ({isShow = true, ...props}) => {
+export type ArchivesProps = {
+  isShow: boolean
+};
+
+const Archives = ({isShow = true}: ArchivesProps) => {
   if (!isShow) {
     return null;
   }

@@ -1,8 +1,13 @@
+// @flow
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {random} from 'lodash/fp';
 
-const Pages = ({isShow = true, ...props}) => {
+export type PagesProps = {
+  isShow: boolean
+};
+
+const Pages = ({isShow = true}: PagesProps) => {
   if (!isShow) {
     return null;
   }

@@ -1,8 +1,13 @@
+// @flow
 import React from 'react';
 import CountUp from 'react-countup';
 import {random} from 'lodash/fp';
 
-const Topics = ({isShow = true, ...props}) => {
+export type TopicsProps = {
+  isShow: boolean
+};
+
+const Topics = ({isShow = true, ...props}: TopicsProps) => {
   if (!isShow) {
     return null;
   }
