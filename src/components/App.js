@@ -1,11 +1,14 @@
 import React from 'react';
-import {TabList, Tabs, Tab, TabPanel, Header, Topics, Archives} from './index';
-
-// @todo remove these
-
-const Pages = ({isShow, ...props}) => {
-  return isShow && <span>This is Pages Content</span>;
-};
+import {
+  TabList,
+  Tabs,
+  Tab,
+  TabPanel,
+  Header,
+  Topics,
+  Archives,
+  Pages
+} from './index';
 
 const App = () => (
   <div className="appWrapper">

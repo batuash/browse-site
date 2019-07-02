@@ -2,7 +2,7 @@ import React from 'react';
 import CountUp from 'react-countup';
 import {random} from 'lodash/fp';
 
-const Topics = ({isShow, ...props}) => {
+const Topics = ({isShow = true, ...props}) => {
   if (!isShow) {
     return null;
   }

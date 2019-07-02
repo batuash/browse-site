@@ -40,7 +40,10 @@ module.exports = {
         ]
       }
     ]
-  },
+  },
+  devServer: {
+    historyApiFallback: true
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Webpack test app',

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Archives = ({isShow, ...props}) => {
+const Archives = ({isShow = true, ...props}) => {
   if (!isShow) {
     return null;
   }
