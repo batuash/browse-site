@@ -16,6 +16,9 @@ const Topics = ({isShow, ...props}) => {
     'Web Development'
   ];
 
+  // console.log('CountUp2');
+  // console.log(CountUp);
+
   return (
     <div className="topicsWrapper">
       <div className="listWrapper">
