@@ -1,0 +1,32 @@
+.archivesWrapper {
+	flex-direction: column;
+	display: flex;
+
+	.listWrapper {
+		background-color: white;
+		margin: 0 30px;
+
+		ul {
+			list-style-type:none;
+			padding: 0 30px;
+
+			li {
+				padding: 15px 30px;
+				border-bottom: 1px solid $regent-gray;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+
+				.image {
+					width: 40px;
+					height: 40px;
+				}
+			}
+
+			li:last-child {
+				border-bottom: none;
+			}
+		}
+	}
+}

@@ -9,22 +9,190 @@ exports[`renders correctly 1`] = `
   >
     <ul>
       <li>
-        HTML Techniques
+        <span
+          className="topic"
+        >
+          HTML Techniques
+        </span>
+        <span
+          className="posts"
+        >
+          <CountUp$$1
+            decimal="."
+            decimals={0}
+            delay={0.5}
+            duration={5}
+            easingFn={null}
+            end={6}
+            formattingFn={null}
+            onEnd={[Function]}
+            onPauseResume={[Function]}
+            onReset={[Function]}
+            onStart={[Function]}
+            onUpdate={[Function]}
+            prefix=""
+            redraw={false}
+            separator=""
+            start={0}
+            suffix=" POSTS"
+            useEasing={true}
+          />
+        </span>
       </li>
       <li>
-        CSS Styling
+        <span
+          className="topic"
+        >
+          CSS Styling
+        </span>
+        <span
+          className="posts"
+        >
+          <CountUp$$1
+            decimal="."
+            decimals={0}
+            delay={0.5}
+            duration={5}
+            easingFn={null}
+            end={78}
+            formattingFn={null}
+            onEnd={[Function]}
+            onPauseResume={[Function]}
+            onReset={[Function]}
+            onStart={[Function]}
+            onUpdate={[Function]}
+            prefix=""
+            redraw={false}
+            separator=""
+            start={0}
+            suffix=" POSTS"
+            useEasing={true}
+          />
+        </span>
       </li>
       <li>
-        Flash Tutorials
+        <span
+          className="topic"
+        >
+          Flash Tutorials
+        </span>
+        <span
+          className="posts"
+        >
+          <CountUp$$1
+            decimal="."
+            decimals={0}
+            delay={0.5}
+            duration={5}
+            easingFn={null}
+            end={71}
+            formattingFn={null}
+            onEnd={[Function]}
+            onPauseResume={[Function]}
+            onReset={[Function]}
+            onStart={[Function]}
+            onUpdate={[Function]}
+            prefix=""
+            redraw={false}
+            separator=""
+            start={0}
+            suffix=" POSTS"
+            useEasing={true}
+          />
+        </span>
       </li>
       <li>
-        Web Miscellanea
+        <span
+          className="topic"
+        >
+          Web Miscellanea
+        </span>
+        <span
+          className="posts"
+        >
+          <CountUp$$1
+            decimal="."
+            decimals={0}
+            delay={0.5}
+            duration={5}
+            easingFn={null}
+            end={13}
+            formattingFn={null}
+            onEnd={[Function]}
+            onPauseResume={[Function]}
+            onReset={[Function]}
+            onStart={[Function]}
+            onUpdate={[Function]}
+            prefix=""
+            redraw={false}
+            separator=""
+            start={0}
+            suffix=" POSTS"
+            useEasing={true}
+          />
+        </span>
       </li>
       <li>
-        Sites News
+        <span
+          className="topic"
+        >
+          Sites News
+        </span>
+        <span
+          className="posts"
+        >
+          <CountUp$$1
+            decimal="."
+            decimals={0}
+            delay={0.5}
+            duration={5}
+            easingFn={null}
+            end={80}
+            formattingFn={null}
+            onEnd={[Function]}
+            onPauseResume={[Function]}
+            onReset={[Function]}
+            onStart={[Function]}
+            onUpdate={[Function]}
+            prefix=""
+            redraw={false}
+            separator=""
+            start={0}
+            suffix=" POSTS"
+            useEasing={true}
+          />
+        </span>
       </li>
       <li>
-        Web Development
+        <span
+          className="topic"
+        >
+          Web Development
+        </span>
+        <span
+          className="posts"
+        >
+          <CountUp$$1
+            decimal="."
+            decimals={0}
+            delay={0.5}
+            duration={5}
+            easingFn={null}
+            end={38}
+            formattingFn={null}
+            onEnd={[Function]}
+            onPauseResume={[Function]}
+            onReset={[Function]}
+            onStart={[Function]}
+            onUpdate={[Function]}
+            prefix=""
+            redraw={false}
+            separator=""
+            start={0}
+            suffix=" POSTS"
+            useEasing={true}
+          />
+        </span>
       </li>
     </ul>
   </div>

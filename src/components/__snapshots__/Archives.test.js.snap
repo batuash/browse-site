@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="archivesWrapper"
+>
+  <div
+    className="listWrapper"
+  >
+    <ul>
+      <li>
+        <img
+          alt="Game Of Thrones"
+          className="image"
+          src=""
+        />
+        <span
+          className="name"
+        >
+          Game Of Thrones
+        </span>
+      </li>
+      <li>
+        <img
+          alt="Breaking Bad"
+          className="image"
+          src=""
+        />
+        <span
+          className="name"
+        >
+          Breaking Bad
+        </span>
+      </li>
+      <li>
+        <img
+          alt="Black Mirror"
+          className="image"
+          src=""
+        />
+        <span
+          className="name"
+        >
+          Black Mirror
+        </span>
+      </li>
+      <li>
+        <img
+          alt="Star Trek"
+          className="image"
+          src=""
+        />
+        <span
+          className="name"
+        >
+          Star Trek
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
