@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from 'react';
+import {random} from 'lodash/fp';
 
 // @todo move this logic to an HOC
 const TabList = props => {
-  const [selected, setSelected] = useState(0);
+  const [selected, setSelected] = useState(random(0)(2));
   const renderTabListChildren = props => {
     const {children, ...childProps} = props;
 
