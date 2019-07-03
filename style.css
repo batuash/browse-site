@@ -1,0 +1,179 @@
+button {
+  height: 30px;
+  background-color: #464C53;
+  padding: 0 10px;
+  border: none;
+  margin: 0 2px;
+  color: #DDDCAD;
+}
+
+.selected {
+  font-weight: bold;
+  background-color: white;
+  color: #000;
+}
+
+.tabsWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0 !important;
+}
+
+.tabListWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000;
+  background-color: #636E75;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.tabListWrapper > div {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.headerWrapper h2 {
+  padding: 0 10px;
+}
+
+.headerWrapper span {
+  font-size: 12px;
+}
+
+html, body {
+  height: 100%;
+}
+
+div#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appWrapper {
+  background-color: #929AA0;
+  width: 400px;
+}
+
+.topicsWrapper {
+  flex-direction: column;
+  display: flex;
+}
+
+.topicsWrapper .listWrapper {
+  background-color: white;
+  margin: 0 30px;
+}
+
+.topicsWrapper .listWrapper ul {
+  list-style-type: none;
+  padding: 0 30px;
+}
+
+.topicsWrapper .listWrapper ul li {
+  padding: 15px 0;
+  border-bottom: 1px solid #929AA0;
+}
+
+.topicsWrapper .listWrapper ul li .topic {
+  padding-right: 10px;
+}
+
+.topicsWrapper .listWrapper ul li .posts {
+  color: #929AA0;
+  font-size: 12px;
+}
+
+.topicsWrapper .listWrapper ul li:last-child {
+  border-bottom: none;
+}
+
+.archivesWrapper {
+  flex-direction: column;
+  display: flex;
+}
+
+.archivesWrapper .listWrapper {
+  background-color: white;
+  margin: 0 30px;
+}
+
+.archivesWrapper .listWrapper ul {
+  list-style-type: none;
+  padding: 0 30px;
+}
+
+.archivesWrapper .listWrapper ul li {
+  padding: 15px 30px;
+  border-bottom: 1px solid #929AA0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.archivesWrapper .listWrapper ul li .image {
+  width: 40px;
+  height: 40px;
+}
+
+.archivesWrapper .listWrapper ul li:last-child {
+  border-bottom: none;
+}
+
+.pagesWrapper .pagesContent {
+  background-color: white;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagesWrapper .listWrapper ul {
+  list-style-type: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+}
+
+.pagesWrapper .listWrapper ul li {
+  padding: 5px 0;
+}
+
+.pagesWrapper .listWrapper ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.pagesWrapper .listWrapper ul li a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+.pagesWrapper .listWrapper ul li a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.pagesWrapper .listWrapper ul li a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.pagesWrapper .listWrapper ul li a:active {
+  text-decoration: underline;
+  color: #000;
+}
