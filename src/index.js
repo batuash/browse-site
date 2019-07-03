@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import {Route, Link, BrowserRouter as Router} from 'react-router-dom';
+import {Route, Link, HashRouter as Router} from 'react-router-dom';
 import './styles/style.css';
 import {
   App,
