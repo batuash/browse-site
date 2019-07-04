@@ -24,8 +24,8 @@ Test
 ```bash
 # run unit test
 npm run test
-# run jest
-npm run jest
+# run javascript type check
+npm run flow
 ```
 
 [Live demo](https://batuash.github.io/browse-site/)
