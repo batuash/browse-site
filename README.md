@@ -28,4 +28,4 @@ npm run test
 npm run flow
 ```
 
-[Live demo](https://batuash.github.io/browse-site/)
+[Live demo](https://batuash.github.io/browse-site/index.html)
